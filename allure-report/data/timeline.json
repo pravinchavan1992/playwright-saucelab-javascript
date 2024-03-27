@@ -1,0 +1,642 @@
+{
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name": "timeline",
+  "children": [
+    {
+      "name": "MUM-176-0617-M",
+      "children": [
+        {
+          "name": "MUM-176-0617-M-41041-playwright-worker-2",
+          "children": [
+            {
+              "name": "@Smoke: login to app and navigate to linkedin",
+              "uid": "f224e04f8a43671e",
+              "parentUid": "7f3717c91035989e0dbbdd57955e4db5",
+              "status": "passed",
+              "time": {
+                "start": 1711204412681,
+                "stop": 1711204426072,
+                "duration": 13391
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            },
+            {
+              "name": "Login as a standard user to complete the checkout workflow",
+              "uid": "4544f93a8d595aa3",
+              "parentUid": "7f3717c91035989e0dbbdd57955e4db5",
+              "status": "passed",
+              "time": {
+                "start": 1711204432337,
+                "stop": 1711204434714,
+                "duration": 2377
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "Login as a standard user to complete the checkout workflow",
+              "uid": "b0130d38605b1f37",
+              "parentUid": "7f3717c91035989e0dbbdd57955e4db5",
+              "status": "passed",
+              "time": {
+                "start": 1711204427598,
+                "stop": 1711204430287,
+                "duration": 2689
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            }
+          ],
+          "uid": "7f3717c91035989e0dbbdd57955e4db5"
+        },
+        {
+          "name": "MUM-176-0617-M-38245-playwright-worker-2",
+          "children": [
+            {
+              "name": "@Sanity: login to app and navigate to facebook",
+              "uid": "ef35b4dd30d04916",
+              "parentUid": "8f25fc73afeecf49ebdd713e56a015dd",
+              "status": "passed",
+              "time": {
+                "start": 1711203816446,
+                "stop": 1711203819949,
+                "duration": 3503
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "@Smoke: login to app and navigate to linkedin",
+              "uid": "a9bc3a8f1ca36f67",
+              "parentUid": "8f25fc73afeecf49ebdd713e56a015dd",
+              "status": "passed",
+              "time": {
+                "start": 1711203797365,
+                "stop": 1711203809941,
+                "duration": 12576
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            },
+            {
+              "name": "Login as a standard user to complete the checkout workflow",
+              "uid": "b94e3c190e4609df",
+              "parentUid": "8f25fc73afeecf49ebdd713e56a015dd",
+              "status": "passed",
+              "time": {
+                "start": 1711203811583,
+                "stop": 1711203814081,
+                "duration": 2498
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            }
+          ],
+          "uid": "8f25fc73afeecf49ebdd713e56a015dd"
+        },
+        {
+          "name": "MUM-176-0617-M-38245-playwright-worker-4",
+          "children": [
+            {
+              "name": "Login as a standard user to complete the checkout workflow",
+              "uid": "76c0057143ad0a38",
+              "parentUid": "75a0c5e4c0fc3139ef8b89992399876c",
+              "status": "passed",
+              "time": {
+                "start": 1711203797362,
+                "stop": 1711203806856,
+                "duration": 9494
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            },
+            {
+              "name": "@Smoke: login to app and navigate to linkedin",
+              "uid": "8b6f60d602895798",
+              "parentUid": "75a0c5e4c0fc3139ef8b89992399876c",
+              "status": "passed",
+              "time": {
+                "start": 1711203815178,
+                "stop": 1711203819034,
+                "duration": 3856
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "@Smoke: login to app and navigate to linkedin",
+              "uid": "febf48be894faff4",
+              "parentUid": "75a0c5e4c0fc3139ef8b89992399876c",
+              "status": "passed",
+              "time": {
+                "start": 1711203808604,
+                "stop": 1711203813282,
+                "duration": 4678
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            }
+          ],
+          "uid": "75a0c5e4c0fc3139ef8b89992399876c"
+        },
+        {
+          "name": "MUM-176-0617-M-41041-playwright-worker-1",
+          "children": [
+            {
+              "name": "@Smoke: Login to Application",
+              "uid": "fb07f5dd077999e8",
+              "parentUid": "38d7cb1027b14f8ba2ddf16eae2d25c3",
+              "status": "passed",
+              "time": {
+                "start": 1711204421642,
+                "stop": 1711204426418,
+                "duration": 4776
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: Login to Application - Re-Login",
+              "uid": "465ace07030398dc",
+              "parentUid": "38d7cb1027b14f8ba2ddf16eae2d25c3",
+              "status": "passed",
+              "time": {
+                "start": 1711204412683,
+                "stop": 1711204419233,
+                "duration": 6550
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            },
+            {
+              "name": "@Smoke: Login to Application",
+              "uid": "32c8f2ec15d41ec7",
+              "parentUid": "38d7cb1027b14f8ba2ddf16eae2d25c3",
+              "status": "passed",
+              "time": {
+                "start": 1711204428622,
+                "stop": 1711204432370,
+                "duration": 3748
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            }
+          ],
+          "uid": "38d7cb1027b14f8ba2ddf16eae2d25c3"
+        },
+        {
+          "name": "MUM-176-0617-M-38245-playwright-worker-1",
+          "children": [
+            {
+              "name": "@Smoke: Login to Application",
+              "uid": "855eff82b53ee6ab",
+              "parentUid": "8906aa6b298b2b3f7d3dd3c44c5fe585",
+              "status": "passed",
+              "time": {
+                "start": 1711203807081,
+                "stop": 1711203811551,
+                "duration": 4470
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            },
+            {
+              "name": "@Smoke: Login to Application",
+              "uid": "31e29d2d9544d9bd",
+              "parentUid": "8906aa6b298b2b3f7d3dd3c44c5fe585",
+              "status": "passed",
+              "time": {
+                "start": 1711203813700,
+                "stop": 1711203817426,
+                "duration": 3726
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: Login to Application - Re-Login",
+              "uid": "47f0c9e2c92e6e93",
+              "parentUid": "8906aa6b298b2b3f7d3dd3c44c5fe585",
+              "status": "passed",
+              "time": {
+                "start": 1711203797364,
+                "stop": 1711203804179,
+                "duration": 6815
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            }
+          ],
+          "uid": "8906aa6b298b2b3f7d3dd3c44c5fe585"
+        },
+        {
+          "name": "MUM-176-0617-M-41041-playwright-worker-0",
+          "children": [
+            {
+              "name": "@Smoke: Login to Application",
+              "uid": "6230473c7b09c229",
+              "parentUid": "bedb798b1f82f32cbc43c8e612f38dbc",
+              "status": "passed",
+              "time": {
+                "start": 1711204412682,
+                "stop": 1711204421514,
+                "duration": 8832
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: Login to Application - Re-Login",
+              "uid": "edba7e69df5b35c1",
+              "parentUid": "bedb798b1f82f32cbc43c8e612f38dbc",
+              "status": "passed",
+              "time": {
+                "start": 1711204423569,
+                "stop": 1711204426666,
+                "duration": 3097
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: Login to Application - Re-Login",
+              "uid": "edb8fd2563e3db4a",
+              "parentUid": "bedb798b1f82f32cbc43c8e612f38dbc",
+              "status": "passed",
+              "time": {
+                "start": 1711204428941,
+                "stop": 1711204431129,
+                "duration": 2188
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            }
+          ],
+          "uid": "bedb798b1f82f32cbc43c8e612f38dbc"
+        },
+        {
+          "name": "MUM-176-0617-M-38245-playwright-worker-0",
+          "children": [
+            {
+              "name": "@Sanity: Login to Application - Re-Login",
+              "uid": "2ec2ee6ebd76d995",
+              "parentUid": "a74dcd9913c282086f6a95a1d3eadd10",
+              "status": "passed",
+              "time": {
+                "start": 1711203813699,
+                "stop": 1711203816128,
+                "duration": 2429
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: Login to Application - Re-Login",
+              "uid": "5452a51b26534915",
+              "parentUid": "a74dcd9913c282086f6a95a1d3eadd10",
+              "status": "passed",
+              "time": {
+                "start": 1711203808522,
+                "stop": 1711203811608,
+                "duration": 3086
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            },
+            {
+              "name": "@Smoke: Login to Application",
+              "uid": "5ec5cd35e6b1dfa3",
+              "parentUid": "a74dcd9913c282086f6a95a1d3eadd10",
+              "status": "passed",
+              "time": {
+                "start": 1711203797366,
+                "stop": 1711203806623,
+                "duration": 9257
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            }
+          ],
+          "uid": "a74dcd9913c282086f6a95a1d3eadd10"
+        },
+        {
+          "name": "MUM-176-0617-M-38245-playwright-worker-3",
+          "children": [
+            {
+              "name": "Login as a standard user to complete the checkout workflow",
+              "uid": "774bfd997e969bca",
+              "parentUid": "74a7d911babb4b0322d14218c5acbdb8",
+              "status": "passed",
+              "time": {
+                "start": 1711203816002,
+                "stop": 1711203818416,
+                "duration": 2414
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: login to app and navigate to facebook",
+              "uid": "ad8c5aa037b1c08f",
+              "parentUid": "74a7d911babb4b0322d14218c5acbdb8",
+              "status": "failed",
+              "time": {
+                "start": 1711203797366,
+                "stop": 1711203807934,
+                "duration": 10568
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: login to app and navigate to facebook",
+              "uid": "f09f385da51992bd",
+              "parentUid": "74a7d911babb4b0322d14218c5acbdb8",
+              "status": "passed",
+              "time": {
+                "start": 1711203809951,
+                "stop": 1711203814306,
+                "duration": 4355
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 0,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            }
+          ],
+          "uid": "74a7d911babb4b0322d14218c5acbdb8"
+        },
+        {
+          "name": "MUM-176-0617-M-41041-playwright-worker-3",
+          "children": [
+            {
+              "name": "@Smoke: login to app and navigate to linkedin",
+              "uid": "c6d1187eb4c0122e",
+              "parentUid": "97caca812d69472118ad0789a9263bba",
+              "status": "passed",
+              "time": {
+                "start": 1711204430563,
+                "stop": 1711204435157,
+                "duration": 4594
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: login to app and navigate to facebook",
+              "uid": "86c87f81925f2fd8",
+              "parentUid": "97caca812d69472118ad0789a9263bba",
+              "status": "failed",
+              "time": {
+                "start": 1711204412683,
+                "stop": 1711204422776,
+                "duration": 10093
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            },
+            {
+              "name": "@Sanity: login to app and navigate to facebook",
+              "uid": "fc38d516980550ce",
+              "parentUid": "97caca812d69472118ad0789a9263bba",
+              "status": "passed",
+              "time": {
+                "start": 1711204424808,
+                "stop": 1711204428348,
+                "duration": 3540
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            }
+          ],
+          "uid": "97caca812d69472118ad0789a9263bba"
+        },
+        {
+          "name": "MUM-176-0617-M-41041-playwright-worker-4",
+          "children": [
+            {
+              "name": "@Sanity: login to app and navigate to facebook",
+              "uid": "543aa204a72e4e67",
+              "parentUid": "2b73888ab7f8e5471881c29d542e54f5",
+              "status": "passed",
+              "time": {
+                "start": 1711204431378,
+                "stop": 1711204435126,
+                "duration": 3748
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["webkit"],
+              "tags": []
+            },
+            {
+              "name": "@Smoke: login to app and navigate to linkedin",
+              "uid": "cbd7ec7a34a9366a",
+              "parentUid": "2b73888ab7f8e5471881c29d542e54f5",
+              "status": "passed",
+              "time": {
+                "start": 1711204423869,
+                "stop": 1711204429573,
+                "duration": 5704
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["firefox"],
+              "tags": []
+            },
+            {
+              "name": "Login as a standard user to complete the checkout workflow",
+              "uid": "e262c2612b15081f",
+              "parentUid": "2b73888ab7f8e5471881c29d542e54f5",
+              "status": "passed",
+              "time": {
+                "start": 1711204412684,
+                "stop": 1711204422037,
+                "duration": 9353
+              },
+              "flaky": false,
+              "newFailed": false,
+              "newPassed": false,
+              "newBroken": false,
+              "retriesCount": 1,
+              "retriesStatusChange": false,
+              "parameters": ["Chrome"],
+              "tags": []
+            }
+          ],
+          "uid": "2b73888ab7f8e5471881c29d542e54f5"
+        }
+      ],
+      "uid": "1fed16b76b6a6a5ead54d4ea54b61871"
+    }
+  ]
+}

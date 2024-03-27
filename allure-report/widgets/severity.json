@@ -1,0 +1,115 @@
+[
+  {
+    "uid": "32c8f2ec15d41ec7",
+    "name": "@Smoke: Login to Application",
+    "time": { "start": 1711204428622, "stop": 1711204432370, "duration": 3748 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "86c87f81925f2fd8",
+    "name": "@Sanity: login to app and navigate to facebook",
+    "time": {
+      "start": 1711204412683,
+      "stop": 1711204422776,
+      "duration": 10093
+    },
+    "status": "failed",
+    "severity": "normal"
+  },
+  {
+    "uid": "f224e04f8a43671e",
+    "name": "@Smoke: login to app and navigate to linkedin",
+    "time": {
+      "start": 1711204412681,
+      "stop": 1711204426072,
+      "duration": 13391
+    },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "edba7e69df5b35c1",
+    "name": "@Sanity: Login to Application - Re-Login",
+    "time": { "start": 1711204423569, "stop": 1711204426666, "duration": 3097 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "543aa204a72e4e67",
+    "name": "@Sanity: login to app and navigate to facebook",
+    "time": { "start": 1711204431378, "stop": 1711204435126, "duration": 3748 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "cbd7ec7a34a9366a",
+    "name": "@Smoke: login to app and navigate to linkedin",
+    "time": { "start": 1711204423869, "stop": 1711204429573, "duration": 5704 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "edb8fd2563e3db4a",
+    "name": "@Sanity: Login to Application - Re-Login",
+    "time": { "start": 1711204428941, "stop": 1711204431129, "duration": 2188 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "6230473c7b09c229",
+    "name": "@Smoke: Login to Application",
+    "time": { "start": 1711204412682, "stop": 1711204421514, "duration": 8832 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "fc38d516980550ce",
+    "name": "@Sanity: login to app and navigate to facebook",
+    "time": { "start": 1711204424808, "stop": 1711204428348, "duration": 3540 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "4544f93a8d595aa3",
+    "name": "Login as a standard user to complete the checkout workflow",
+    "time": { "start": 1711204432337, "stop": 1711204434714, "duration": 2377 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "465ace07030398dc",
+    "name": "@Sanity: Login to Application - Re-Login",
+    "time": { "start": 1711204412683, "stop": 1711204419233, "duration": 6550 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "b0130d38605b1f37",
+    "name": "Login as a standard user to complete the checkout workflow",
+    "time": { "start": 1711204427598, "stop": 1711204430287, "duration": 2689 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "c6d1187eb4c0122e",
+    "name": "@Smoke: login to app and navigate to linkedin",
+    "time": { "start": 1711204430563, "stop": 1711204435157, "duration": 4594 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "fb07f5dd077999e8",
+    "name": "@Smoke: Login to Application",
+    "time": { "start": 1711204421642, "stop": 1711204426418, "duration": 4776 },
+    "status": "passed",
+    "severity": "normal"
+  },
+  {
+    "uid": "e262c2612b15081f",
+    "name": "Login as a standard user to complete the checkout workflow",
+    "time": { "start": 1711204412684, "stop": 1711204422037, "duration": 9353 },
+    "status": "passed",
+    "severity": "normal"
+  }
+]

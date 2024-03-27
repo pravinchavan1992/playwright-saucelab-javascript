@@ -1,0 +1,41 @@
+{
+  "total": 3,
+  "items": [
+    {
+      "uid": "be3b43cb059a307900f233563156e40a",
+      "name": "Chrome",
+      "statistic": {
+        "failed": 1,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 4,
+        "unknown": 0,
+        "total": 5
+      }
+    },
+    {
+      "uid": "ed39c131db56604842b18253a0c76267",
+      "name": "firefox",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 5,
+        "unknown": 0,
+        "total": 5
+      }
+    },
+    {
+      "uid": "44063b3706d66b0d346705a4a77c6704",
+      "name": "webkit",
+      "statistic": {
+        "failed": 0,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 5,
+        "unknown": 0,
+        "total": 5
+      }
+    }
+  ]
+}

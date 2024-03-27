@@ -1,0 +1,417 @@
+{
+  "uid": "98d3104e051c652961429bf95fa0b5d6",
+  "name": "suites",
+  "children": [
+    {
+      "name": "Chrome",
+      "children": [
+        {
+          "name": "TC01_ProductTest.spec.js",
+          "children": [
+            {
+              "name": "@Smoke: Click on LinkedIn link and check whether user is navigated to LinkedIn page",
+              "children": [
+                {
+                  "name": "@Smoke: login to app and navigate to linkedin",
+                  "uid": "f224e04f8a43671e",
+                  "parentUid": "da830b45ef60e960bbd4ae2c0b25f5dd",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204412681,
+                    "stop": 1711204426072,
+                    "duration": 13391
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["Chrome"],
+                  "tags": []
+                }
+              ],
+              "uid": "da830b45ef60e960bbd4ae2c0b25f5dd"
+            },
+            {
+              "name": "@Smoke: Login as a standard user to verify the products page and logout from the application",
+              "children": [
+                {
+                  "name": "@Smoke: Login to Application",
+                  "uid": "6230473c7b09c229",
+                  "parentUid": "e4232f2457bebe57ee3e0beaa0264df3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204412682,
+                    "stop": 1711204421514,
+                    "duration": 8832
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["Chrome"],
+                  "tags": []
+                },
+                {
+                  "name": "@Sanity: Login to Application - Re-Login",
+                  "uid": "465ace07030398dc",
+                  "parentUid": "e4232f2457bebe57ee3e0beaa0264df3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204412683,
+                    "stop": 1711204419233,
+                    "duration": 6550
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["Chrome"],
+                  "tags": []
+                }
+              ],
+              "uid": "e4232f2457bebe57ee3e0beaa0264df3"
+            },
+            {
+              "name": "@Sanity: Click on Facebook link and check whether user is navigated to Facebook page",
+              "children": [
+                {
+                  "name": "@Sanity: login to app and navigate to facebook",
+                  "uid": "86c87f81925f2fd8",
+                  "parentUid": "f50a69df905cc93a4255ceffaebac159",
+                  "status": "failed",
+                  "time": {
+                    "start": 1711204412683,
+                    "stop": 1711204422776,
+                    "duration": 10093
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["Chrome"],
+                  "tags": []
+                }
+              ],
+              "uid": "f50a69df905cc93a4255ceffaebac159"
+            }
+          ],
+          "uid": "50fb0ca63bd8abed1d80fe9d75f8cffc"
+        },
+        {
+          "name": "TC02_checkoutworkflow.spec.js",
+          "children": [
+            {
+              "name": "@Sanity Login as a standard user to complete the checkout workflow",
+              "children": [
+                {
+                  "name": "Login as a standard user to complete the checkout workflow",
+                  "uid": "e262c2612b15081f",
+                  "parentUid": "ffb7469882be441692d53d201bb9a1ae",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204412684,
+                    "stop": 1711204422037,
+                    "duration": 9353
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["Chrome"],
+                  "tags": []
+                }
+              ],
+              "uid": "ffb7469882be441692d53d201bb9a1ae"
+            }
+          ],
+          "uid": "33b315748d6e8ce54849b8fb22237cb9"
+        }
+      ],
+      "uid": "be3b43cb059a307900f233563156e40a"
+    },
+    {
+      "name": "firefox",
+      "children": [
+        {
+          "name": "TC01_ProductTest.spec.js",
+          "children": [
+            {
+              "name": "@Smoke: Login as a standard user to verify the products page and logout from the application",
+              "children": [
+                {
+                  "name": "@Smoke: Login to Application",
+                  "uid": "fb07f5dd077999e8",
+                  "parentUid": "07842bc59b2cdc1598951fe2c6f10c34",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204421642,
+                    "stop": 1711204426418,
+                    "duration": 4776
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["firefox"],
+                  "tags": []
+                },
+                {
+                  "name": "@Sanity: Login to Application - Re-Login",
+                  "uid": "edba7e69df5b35c1",
+                  "parentUid": "07842bc59b2cdc1598951fe2c6f10c34",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204423569,
+                    "stop": 1711204426666,
+                    "duration": 3097
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["firefox"],
+                  "tags": []
+                }
+              ],
+              "uid": "07842bc59b2cdc1598951fe2c6f10c34"
+            },
+            {
+              "name": "@Smoke: Click on LinkedIn link and check whether user is navigated to LinkedIn page",
+              "children": [
+                {
+                  "name": "@Smoke: login to app and navigate to linkedin",
+                  "uid": "cbd7ec7a34a9366a",
+                  "parentUid": "857d1b20f010d5e959d97f6d04964c49",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204423869,
+                    "stop": 1711204429573,
+                    "duration": 5704
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["firefox"],
+                  "tags": []
+                }
+              ],
+              "uid": "857d1b20f010d5e959d97f6d04964c49"
+            },
+            {
+              "name": "@Sanity: Click on Facebook link and check whether user is navigated to Facebook page",
+              "children": [
+                {
+                  "name": "@Sanity: login to app and navigate to facebook",
+                  "uid": "fc38d516980550ce",
+                  "parentUid": "c19ac8bdb0a1408dd053aac6e10b242f",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204424808,
+                    "stop": 1711204428348,
+                    "duration": 3540
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["firefox"],
+                  "tags": []
+                }
+              ],
+              "uid": "c19ac8bdb0a1408dd053aac6e10b242f"
+            }
+          ],
+          "uid": "173b5102d4a4c4f15263bd2d57b21b5b"
+        },
+        {
+          "name": "TC02_checkoutworkflow.spec.js",
+          "children": [
+            {
+              "name": "@Sanity Login as a standard user to complete the checkout workflow",
+              "children": [
+                {
+                  "name": "Login as a standard user to complete the checkout workflow",
+                  "uid": "b0130d38605b1f37",
+                  "parentUid": "a018fa518729aa8c4d558920a44f30e3",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204427598,
+                    "stop": 1711204430287,
+                    "duration": 2689
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["firefox"],
+                  "tags": []
+                }
+              ],
+              "uid": "a018fa518729aa8c4d558920a44f30e3"
+            }
+          ],
+          "uid": "33ffd2d750d067bb517f6e79e0c932ee"
+        }
+      ],
+      "uid": "ed39c131db56604842b18253a0c76267"
+    },
+    {
+      "name": "webkit",
+      "children": [
+        {
+          "name": "TC01_ProductTest.spec.js",
+          "children": [
+            {
+              "name": "@Smoke: Login as a standard user to verify the products page and logout from the application",
+              "children": [
+                {
+                  "name": "@Smoke: Login to Application",
+                  "uid": "32c8f2ec15d41ec7",
+                  "parentUid": "6173b73ceb04343befaf1cb2d334ab86",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204428622,
+                    "stop": 1711204432370,
+                    "duration": 3748
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["webkit"],
+                  "tags": []
+                },
+                {
+                  "name": "@Sanity: Login to Application - Re-Login",
+                  "uid": "edb8fd2563e3db4a",
+                  "parentUid": "6173b73ceb04343befaf1cb2d334ab86",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204428941,
+                    "stop": 1711204431129,
+                    "duration": 2188
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["webkit"],
+                  "tags": []
+                }
+              ],
+              "uid": "6173b73ceb04343befaf1cb2d334ab86"
+            },
+            {
+              "name": "@Smoke: Click on LinkedIn link and check whether user is navigated to LinkedIn page",
+              "children": [
+                {
+                  "name": "@Smoke: login to app and navigate to linkedin",
+                  "uid": "c6d1187eb4c0122e",
+                  "parentUid": "c62fe50b3e8579f533eaf455e0170370",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204430563,
+                    "stop": 1711204435157,
+                    "duration": 4594
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["webkit"],
+                  "tags": []
+                }
+              ],
+              "uid": "c62fe50b3e8579f533eaf455e0170370"
+            },
+            {
+              "name": "@Sanity: Click on Facebook link and check whether user is navigated to Facebook page",
+              "children": [
+                {
+                  "name": "@Sanity: login to app and navigate to facebook",
+                  "uid": "543aa204a72e4e67",
+                  "parentUid": "0d09d7315c408223421ab7edd48cc3ba",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204431378,
+                    "stop": 1711204435126,
+                    "duration": 3748
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["webkit"],
+                  "tags": []
+                }
+              ],
+              "uid": "0d09d7315c408223421ab7edd48cc3ba"
+            }
+          ],
+          "uid": "c6322dbae7aa965d8fc46cc6465c5e34"
+        },
+        {
+          "name": "TC02_checkoutworkflow.spec.js",
+          "children": [
+            {
+              "name": "@Sanity Login as a standard user to complete the checkout workflow",
+              "children": [
+                {
+                  "name": "Login as a standard user to complete the checkout workflow",
+                  "uid": "4544f93a8d595aa3",
+                  "parentUid": "a230d759228a49595d8413945e3651e5",
+                  "status": "passed",
+                  "time": {
+                    "start": 1711204432337,
+                    "stop": 1711204434714,
+                    "duration": 2377
+                  },
+                  "flaky": false,
+                  "newFailed": false,
+                  "newPassed": false,
+                  "newBroken": false,
+                  "retriesCount": 1,
+                  "retriesStatusChange": false,
+                  "parameters": ["webkit"],
+                  "tags": []
+                }
+              ],
+              "uid": "a230d759228a49595d8413945e3651e5"
+            }
+          ],
+          "uid": "a22680f1471f876a55aef59b0228cc4d"
+        }
+      ],
+      "uid": "44063b3706d66b0d346705a4a77c6704"
+    }
+  ]
+}

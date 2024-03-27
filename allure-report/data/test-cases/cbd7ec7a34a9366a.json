@@ -1,0 +1,499 @@
+{
+  "uid": "cbd7ec7a34a9366a",
+  "name": "@Smoke: login to app and navigate to linkedin",
+  "fullName": "TC01_ProductTest.spec.js#@Smoke: Click on LinkedIn link and check whether user is navigated to LinkedIn page @Smoke: login to app and navigate to linkedin",
+  "historyId": "92d70686f44912e0caf176e8bc48e29e:b444eb0fbe6390c71e68b51dd25701fc",
+  "time": { "start": 1711204423869, "stop": 1711204429573, "duration": 5704 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 1,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Before Hooks",
+        "time": {
+          "start": 1711204423913,
+          "stop": 1711204425304,
+          "duration": 1391
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "fixture: browser",
+            "time": {
+              "start": 1711204423921,
+              "stop": 1711204424538,
+              "duration": 617
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browserType.launch",
+                "time": {
+                  "start": 1711204423932,
+                  "stop": 1711204424538,
+                  "duration": 606
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: context",
+            "time": {
+              "start": 1711204424548,
+              "stop": 1711204424758,
+              "duration": 210
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browser.newContext",
+                "time": {
+                  "start": 1711204424552,
+                  "stop": 1711204424749,
+                  "duration": 197
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1711204424759,
+              "stop": 1711204425296,
+              "duration": 537
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "browserContext.newPage",
+                "time": {
+                  "start": 1711204424761,
+                  "stop": 1711204425296,
+                  "duration": 535
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "shouldDisplayMessage": false,
+                "stepsCount": 0,
+                "attachmentsCount": 0,
+                "hasContent": false,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 1,
+            "attachmentsCount": 0,
+            "hasContent": true,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: loginpage",
+            "time": {
+              "start": 1711204425304,
+              "stop": 1711204425304,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: product",
+            "time": {
+              "start": 1711204425304,
+              "stop": 1711204425304,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 8,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "Login to App",
+        "time": {
+          "start": 1711204425306,
+          "stop": 1711204426105,
+          "duration": 799
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "page.goto()",
+            "time": {
+              "start": 1711204425312,
+              "stop": 1711204425926,
+              "duration": 614
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "locator.getByPlaceholder('Username').fill",
+            "time": {
+              "start": 1711204425944,
+              "stop": 1711204426014,
+              "duration": 70
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "locator.getByPlaceholder('Password').fill",
+            "time": {
+              "start": 1711204426030,
+              "stop": 1711204426046,
+              "duration": 16
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "locator.click([data-test=\"login-button\"])",
+            "time": {
+              "start": 1711204426058,
+              "stop": 1711204426105,
+              "duration": 47
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 4,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "Navigate to linkedin",
+        "time": {
+          "start": 1711204426114,
+          "stop": 1711204429556,
+          "duration": 3442
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "browserContext.waitForEvent",
+            "time": {
+              "start": 1711204426137,
+              "stop": 1711204426985,
+              "duration": 848
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "locator.getByRole('link', { name: 'LinkedIn' }).click",
+            "time": {
+              "start": 1711204426145,
+              "stop": 1711204426189,
+              "duration": 44
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "page.waitForLoadState",
+            "time": {
+              "start": 1711204426997,
+              "stop": 1711204429540,
+              "duration": 2543
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "page.title",
+            "time": {
+              "start": 1711204429541,
+              "stop": 1711204429546,
+              "duration": 5
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "expect.toContain",
+            "time": {
+              "start": 1711204429555,
+              "stop": 1711204429555,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 5,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      },
+      {
+        "name": "After Hooks",
+        "time": {
+          "start": 1711204429556,
+          "stop": 1711204429573,
+          "duration": 17
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "fixture: product",
+            "time": {
+              "start": 1711204429557,
+              "stop": 1711204429557,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: loginpage",
+            "time": {
+              "start": 1711204429557,
+              "stop": 1711204429557,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: page",
+            "time": {
+              "start": 1711204429558,
+              "stop": 1711204429558,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          },
+          {
+            "name": "fixture: context",
+            "time": {
+              "start": 1711204429558,
+              "stop": 1711204429558,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "shouldDisplayMessage": false,
+            "stepsCount": 0,
+            "attachmentsCount": 0,
+            "hasContent": false,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "shouldDisplayMessage": false,
+        "stepsCount": 4,
+        "attachmentsCount": 0,
+        "hasContent": true,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "shouldDisplayMessage": false,
+    "stepsCount": 25,
+    "attachmentsCount": 0,
+    "hasContent": true,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "language", "value": "JavaScript" },
+    { "name": "framework", "value": "Playwright" },
+    {
+      "name": "titlePath",
+      "value": " > firefox > TC01_ProductTest.spec.js > @Smoke: Click on LinkedIn link and check whether user is navigated to LinkedIn page"
+    },
+    { "name": "host", "value": "MUM-176-0617-M" },
+    { "name": "thread", "value": "MUM-176-0617-M-41041-playwright-worker-4" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "TC01_ProductTest.spec.js" },
+    {
+      "name": "subSuite",
+      "value": "@Smoke: Click on LinkedIn link and check whether user is navigated to LinkedIn page"
+    },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [
+      {
+        "uid": "febf48be894faff4",
+        "status": "passed",
+        "time": {
+          "start": 1711203808604,
+          "stop": 1711203813282,
+          "duration": 4678
+        }
+      }
+    ],
+    "categories": [],
+    "tags": []
+  },
+  "source": "cbd7ec7a34a9366a.json",
+  "parameterValues": ["firefox"]
+}
