@@ -28,3 +28,5 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+      - name: Generate Allure report
+        run: npm run allure-generate && npm run allure:report
