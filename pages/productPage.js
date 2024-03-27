@@ -4,11 +4,11 @@ const { expect } = require('@playwright/test');
 
 exports.Product = class Product extends BasePage {
   shoppingCart = this.page.locator('#shopping_cart_container a');
-  productSort = this.page.locator('[data-test="product_sort_container"]');
+  //productSort = this.page.locator('[data-test="product_sort_container"]');
   products = this.page.getByText('Products');
   menuLinks = this.page.locator('.bm-menu-wrap a');
   inventory = this.page.locator('div.inventory_container .inventory_item');
-  productsort = this.page.locator('[data-test=\'product_sort_container\']');
+  productsort = this.page.locator('select.product_sort_container');
   activeContainer = this.page.locator('span.active_option');
 
   menu = (/** @type {string} */ link) =>
@@ -32,7 +32,7 @@ exports.Product = class Product extends BasePage {
   }
 
   async isProductSortVisible() {
-    await expect.soft(this.productSort).toBeVisible();
+    await expect.soft(this.productsort).toBeVisible();
   }
 
   async isProductLabelVisible() {
