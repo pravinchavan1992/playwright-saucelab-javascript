@@ -39,11 +39,11 @@ test.describe
 
       await test.step('Verify product', async () => {
         const prodDetails = await product.isProductAvailable('Sauce Labs Onesie');
-        console.log(prodDetails[0], prodDetails[1]);
+        console.log(prodDetails, prodDetails);
         const prodDetails1 = await product.isProductAvailable(
           'Sauce Labs Backpack',
         );
-        console.log(prodDetails1[0], prodDetails[1]);
+        console.log(prodDetails1, prodDetails);
       });
 
       await test.step('Verify sorting of product', async () => {
