@@ -14,8 +14,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
-          cache-dependency-path: '**/package-lock.json'
+          
+      - name: Print system info
+        run: npx envinfo --preset playwright --markdown
+
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        id: cache-node-modules
+        with:
+          path: |
+            node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+          
       - name: Install dependencies
         run: npm install
       - name: Clean Install
