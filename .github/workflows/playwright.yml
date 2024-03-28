@@ -18,6 +18,10 @@ jobs:
       - name: Print system info
         run: npx envinfo --preset playwright --markdown
 
+      - name: Get installed Playwright version
+        id: playwright-version
+        run: echo "PLAYWRIGHT_VERSION=$(node -e "console.log(require('./package-lock.json').dependencies['@playwright/test'].version)")" >> $GITHUB_ENV
+    
       - name: Cache node_modules
         uses: actions/cache@v3
         id: cache-node-modules
